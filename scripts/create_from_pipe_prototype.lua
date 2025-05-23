@@ -2,9 +2,9 @@ local utility = require("__simple-gauge__.scripts.utils")
 
 ---Adds a simple gauge created from a pipe prototype
 ---@param pipe_name data.EntityID
+---@param technology_name data.TechnologyID?
 ---@param item_name data.ItemID?
 ---@param recipe_name data.RecipeID?
----@param technology_name data.TechnologyID?
 local function create_from_pipe_prototype(pipe_name, technology_name, item_name, recipe_name)
 	local pipe_prototype = data.raw["pipe"][pipe_name]
 
