@@ -1,0 +1,9 @@
+{
+  "name": "simple-gauge",
+  "version": "1.0.0",
+  "title": "Simple Gauge",
+  "author": "Poutinator",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0", "? Krastorio2"],
+  "description": "A simple pipe sized tank you can use to read a fluid segment's content"
+}
